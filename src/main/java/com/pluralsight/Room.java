@@ -48,6 +48,6 @@ public class Room {
                 ", price=" + price +
                 ", isOccupied=" + isOccupied +
                 ", isDirty=" + isDirty +
-                ",isAvailabe=" + isAvailable() + "}";
+                ", isAvailabe=" + isAvailable() + "}";
     }
 }
