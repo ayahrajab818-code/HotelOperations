@@ -22,5 +22,43 @@ public class Main {
         for(Room r : rooms){
             System.out.println(r);
         }
+
+        System.out.println();
+
+        ArrayList<Reservation> reservation = new ArrayList<>();
+
+        Reservation res1 = new Reservation("king", 2,false);//this is the argument
+        Reservation res2 = new Reservation("double", 1,false);
+        Reservation res3 = new Reservation("king", 1,false);
+        Reservation res4 = new Reservation("king", 1,false);
+
+
+        reservation.add(res1);
+        reservation.add(res2);
+        reservation.add(res3);
+        reservation.add(res4);
+
+        for(Reservation r : reservation){
+            System.out.println(r);
+        }
+
+        System.out.println();
+
+        ArrayList<Employee> employees = new ArrayList<>();
+
+        Employee emp1 = new Employee(1,"ayah","IT",23,12);
+        Employee emp2 = new Employee(1, "AYAH","IT",34,4);
+        Employee emp3 = new Employee(1, "AYAH","IT",34,4);
+        Employee emp4 = new Employee(1, "AYAH","IT",34,4);
+
+
+        employees.add(emp1);
+        employees.add(emp2);
+        employees.add(emp3);
+        employees.add(emp4);
+
+        for(Employee e : employees){
+            System.out.println(e);
+        }
     }
 }
